@@ -1,0 +1,96 @@
+{
+  "description": "Hand-sorted beats automatic whatever the time; otherwise newer wins; entries older than 30 days are dropped.",
+  "expected": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {
+      "m1": {
+        "category": "needsReply",
+        "manual": true,
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      },
+      "m2": {
+        "category": "newsletter",
+        "manual": false,
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      },
+      "m4": {
+        "category": "fyi",
+        "manual": true,
+        "updatedAt": "2026-10-26T07:00:00.000Z"
+      }
+    },
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {
+      "m1": {
+        "category": "fyi",
+        "manual": false,
+        "summary": "Claude",
+        "updatedAt": "2026-10-26T11:00:00.000Z"
+      },
+      "m2": {
+        "category": "needsReply",
+        "manual": false,
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      },
+      "m3": {
+        "category": "fyi",
+        "manual": false,
+        "updatedAt": "2026-09-01T09:00:00.000Z"
+      }
+    },
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {
+      "m1": {
+        "category": "needsReply",
+        "manual": true,
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      },
+      "m2": {
+        "category": "newsletter",
+        "manual": false,
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      },
+      "m4": {
+        "category": "fyi",
+        "manual": true,
+        "updatedAt": "2026-10-26T07:00:00.000Z"
+      }
+    },
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}

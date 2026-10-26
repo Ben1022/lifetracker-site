@@ -1,0 +1,197 @@
+{
+  "description": "The newer updatedAt wins for each task; tasks only one side has are kept.",
+  "expected": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "t1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Essay (web)",
+        "updatedAt": "2026-10-26T09:00:00.001Z"
+      },
+      "t2": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t2",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Quiz (mac)",
+        "updatedAt": "2026-10-26T10:30:00.000Z"
+      },
+      "t3": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t3",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Mac only",
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      },
+      "t4": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t4",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Web only",
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "t1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Essay (mac)",
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      },
+      "t2": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t2",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Quiz (mac)",
+        "updatedAt": "2026-10-26T10:30:00.000Z"
+      },
+      "t3": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t3",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Mac only",
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "t1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Essay (web)",
+        "updatedAt": "2026-10-26T09:00:00.001Z"
+      },
+      "t2": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t2",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Quiz (web)",
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      },
+      "t4": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t4",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Web only",
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}

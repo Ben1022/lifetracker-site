@@ -1,0 +1,74 @@
+{
+  "description": "Newer settings win, but Use Claude always comes from the Mac's side.",
+  "expected": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "settings": {
+      "accentColor": "#0F9D9A",
+      "claudeEnabled": true,
+      "defaultListID": "L1",
+      "hideMuted": true,
+      "sidebarStyle": "tinted",
+      "updatedAt": "2026-10-26T09:00:00.000Z",
+      "userName": "Ben"
+    },
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "settings": {
+      "accentColor": "#2F6BFF",
+      "claudeEnabled": true,
+      "defaultListID": "L1",
+      "hideMuted": true,
+      "sidebarStyle": "tinted",
+      "updatedAt": "2026-10-26T08:00:00.000Z",
+      "userName": "Ben"
+    },
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "settings": {
+      "accentColor": "#0F9D9A",
+      "claudeEnabled": false,
+      "defaultListID": "L1",
+      "hideMuted": true,
+      "sidebarStyle": "tinted",
+      "updatedAt": "2026-10-26T09:00:00.000Z",
+      "userName": "Ben"
+    },
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}

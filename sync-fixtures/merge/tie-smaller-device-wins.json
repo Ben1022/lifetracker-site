@@ -1,0 +1,113 @@
+{
+  "description": "Equal times: the side whose device ID sorts first wins (here the remote 'mac-A' beats local 'web-Z').",
+  "expected": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "t1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Mac title",
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "web-Z"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "t1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Web title",
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-Z"
+  },
+  "options": {
+    "localDevice": "web-Z",
+    "localIsMac": false,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "t1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "dueHasTime": false,
+        "id": "t1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "sortIndex": 0,
+        "title": "Mac title",
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  }
+}

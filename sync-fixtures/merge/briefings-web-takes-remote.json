@@ -1,0 +1,86 @@
+{
+  "description": "On the web the remote (Mac-written) briefing wins.",
+  "expected": {
+    "briefings": {
+      "2026-10-26": {
+        "bullets": [
+          "rewritten"
+        ],
+        "day": "2026-10-26",
+        "generatedAt": "2026-10-26T09:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      }
+    },
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "web-B"
+  },
+  "local": {
+    "briefings": {
+      "2026-10-26": {
+        "bullets": [
+          "old copy"
+        ],
+        "day": "2026-10-26",
+        "generatedAt": "2026-10-26T06:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      }
+    },
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  },
+  "options": {
+    "localDevice": "web-B",
+    "localIsMac": false,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {
+      "2026-10-26": {
+        "bullets": [
+          "rewritten"
+        ],
+        "day": "2026-10-26",
+        "generatedAt": "2026-10-26T09:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      }
+    },
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  }
+}

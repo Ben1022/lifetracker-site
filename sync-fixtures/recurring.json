@@ -1,0 +1,547 @@
+{
+  "description": "Checking off and unchecking tasks (recurring log rules). Times are local in 'timeZone'. 'NEW' marks a task the action creates.",
+  "timeZone": "America/Los_Angeles",
+  "cases": [
+    {
+      "description": "Checking off a weekly task logs the day as a completed copy and moves the series a week on.",
+      "now": "2026-10-26T12:00",
+      "toggle": "r1",
+      "before": [
+        {
+          "id": "r1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "r1",
+          "title": "Chapter quiz",
+          "due": "2026-11-02T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "NEW",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "r1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "A daily task checked off three days late comes back today (same time), not in the past.",
+      "now": "2026-10-23T10:00",
+      "toggle": "d1",
+      "before": [
+        {
+          "id": "d1",
+          "title": "Vitamins",
+          "due": "2026-10-20T08:00",
+          "dueHasTime": true,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "daily",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "d1",
+          "title": "Vitamins",
+          "due": "2026-10-23T08:00",
+          "dueHasTime": true,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "daily",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "NEW",
+          "title": "Vitamins",
+          "due": "2026-10-20T08:00",
+          "dueHasTime": true,
+          "isDone": true,
+          "completedAt": "2026-10-23T10:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "d1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "Weekdays skip the weekend.",
+      "now": "2026-10-23T18:00",
+      "toggle": "w1",
+      "before": [
+        {
+          "id": "w1",
+          "title": "Standup",
+          "due": "2026-10-23T09:00",
+          "dueHasTime": true,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekdays",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "w1",
+          "title": "Standup",
+          "due": "2026-10-26T09:00",
+          "dueHasTime": true,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekdays",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "NEW",
+          "title": "Standup",
+          "due": "2026-10-23T09:00",
+          "dueHasTime": true,
+          "isDone": true,
+          "completedAt": "2026-10-23T18:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "w1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "When the next date is after the end date, the repeating task itself is completed for good.",
+      "now": "2026-10-26T12:00",
+      "toggle": "r1",
+      "before": [
+        {
+          "id": "r1",
+          "title": "Quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": "2026-10-30T00:00",
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "r1",
+          "title": "Quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": "weekly",
+          "repeatUntil": "2026-10-30T00:00",
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "The last day before the end date still logs a copy.",
+      "now": "2026-10-26T12:00",
+      "toggle": "r1",
+      "before": [
+        {
+          "id": "r1",
+          "title": "Quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": "2026-11-02T00:00",
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "r1",
+          "title": "Quiz",
+          "due": "2026-11-02T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": "2026-11-02T00:00",
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "NEW",
+          "title": "Quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "r1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "Unchecking a logged day puts it back: the copy is deleted and the series returns to that date.",
+      "now": "2026-10-26T13:00",
+      "toggle": "log1",
+      "before": [
+        {
+          "id": "r1",
+          "title": "Chapter quiz",
+          "due": "2026-11-02T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "log1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "r1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "r1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "Unchecking an earlier logged day after a later one was logged makes it an open one-off.",
+      "now": "2026-11-03T09:00",
+      "toggle": "log1",
+      "before": [
+        {
+          "id": "r1",
+          "title": "Chapter quiz",
+          "due": "2026-11-09T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "log1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "r1",
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "log2",
+          "title": "Chapter quiz",
+          "due": "2026-11-02T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-11-02T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "r1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "r1",
+          "title": "Chapter quiz",
+          "due": "2026-11-09T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "weekly",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "log1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "log2",
+          "title": "Chapter quiz",
+          "due": "2026-11-02T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-11-02T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "r1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "Unchecking a logged day whose series is gone makes it an open one-off.",
+      "now": "2026-10-27T09:00",
+      "toggle": "log1",
+      "before": [
+        {
+          "id": "log1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "gone",
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "log1",
+          "title": "Chapter quiz",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "A plain task is checked off, and unchecked again.",
+      "now": "2026-10-26T12:00",
+      "toggle": "p1",
+      "before": [
+        {
+          "id": "p1",
+          "title": "Essay",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "p2",
+          "title": "Done already",
+          "due": null,
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-25T09:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "p1",
+          "title": "Essay",
+          "due": "2026-10-26T00:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "p2",
+          "title": "Done already",
+          "due": null,
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-25T09:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "Unchecking a plain completed task.",
+      "now": "2026-10-26T12:00",
+      "toggle": "p2",
+      "before": [
+        {
+          "id": "p2",
+          "title": "Done already",
+          "due": null,
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-25T09:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "p2",
+          "title": "Done already",
+          "due": null,
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "description": "A repeating task with no date is logged today and moves to the next date from now.",
+      "now": "2026-10-26T12:00",
+      "toggle": "n1",
+      "before": [
+        {
+          "id": "n1",
+          "title": "Water plants",
+          "due": null,
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "daily",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        }
+      ],
+      "after": [
+        {
+          "id": "n1",
+          "title": "Water plants",
+          "due": "2026-10-27T12:00",
+          "dueHasTime": false,
+          "isDone": false,
+          "completedAt": null,
+          "repeatRule": "daily",
+          "repeatUntil": null,
+          "seriesTaskID": null,
+          "listID": "L1",
+          "priority": 2
+        },
+        {
+          "id": "NEW",
+          "title": "Water plants",
+          "due": "2026-10-26T12:00",
+          "dueHasTime": false,
+          "isDone": true,
+          "completedAt": "2026-10-26T12:00",
+          "repeatRule": null,
+          "repeatUntil": null,
+          "seriesTaskID": "n1",
+          "listID": "L1",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

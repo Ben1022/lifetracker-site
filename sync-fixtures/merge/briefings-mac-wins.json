@@ -1,0 +1,446 @@
+{
+  "description": "The Mac's briefing always wins for a day; days only the remote has are kept; only the 14 most recent days are kept.",
+  "expected": {
+    "briefings": {
+      "2026-10-13": {
+        "bullets": [
+          "mac 2026-10-13"
+        ],
+        "day": "2026-10-13",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-14": {
+        "bullets": [
+          "mac 2026-10-14"
+        ],
+        "day": "2026-10-14",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-15": {
+        "bullets": [
+          "mac 2026-10-15"
+        ],
+        "day": "2026-10-15",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-16": {
+        "bullets": [
+          "mac 2026-10-16"
+        ],
+        "day": "2026-10-16",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-17": {
+        "bullets": [
+          "mac 2026-10-17"
+        ],
+        "day": "2026-10-17",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-18": {
+        "bullets": [
+          "mac 2026-10-18"
+        ],
+        "day": "2026-10-18",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-19": {
+        "bullets": [
+          "mac 2026-10-19"
+        ],
+        "day": "2026-10-19",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-20": {
+        "bullets": [
+          "mac 2026-10-20"
+        ],
+        "day": "2026-10-20",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-21": {
+        "bullets": [
+          "mac 2026-10-21"
+        ],
+        "day": "2026-10-21",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-22": {
+        "bullets": [
+          "mac 2026-10-22"
+        ],
+        "day": "2026-10-22",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-23": {
+        "bullets": [
+          "mac 2026-10-23"
+        ],
+        "day": "2026-10-23",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-24": {
+        "bullets": [
+          "mac 2026-10-24"
+        ],
+        "day": "2026-10-24",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-25": {
+        "bullets": [
+          "mac 2026-10-25"
+        ],
+        "day": "2026-10-25",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-26": {
+        "bullets": [
+          "mac 2026-10-26"
+        ],
+        "day": "2026-10-26",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      }
+    },
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {
+      "2026-10-13": {
+        "bullets": [
+          "mac 2026-10-13"
+        ],
+        "day": "2026-10-13",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-14": {
+        "bullets": [
+          "mac 2026-10-14"
+        ],
+        "day": "2026-10-14",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-15": {
+        "bullets": [
+          "mac 2026-10-15"
+        ],
+        "day": "2026-10-15",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-16": {
+        "bullets": [
+          "mac 2026-10-16"
+        ],
+        "day": "2026-10-16",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-17": {
+        "bullets": [
+          "mac 2026-10-17"
+        ],
+        "day": "2026-10-17",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-18": {
+        "bullets": [
+          "mac 2026-10-18"
+        ],
+        "day": "2026-10-18",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-19": {
+        "bullets": [
+          "mac 2026-10-19"
+        ],
+        "day": "2026-10-19",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-20": {
+        "bullets": [
+          "mac 2026-10-20"
+        ],
+        "day": "2026-10-20",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-21": {
+        "bullets": [
+          "mac 2026-10-21"
+        ],
+        "day": "2026-10-21",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-22": {
+        "bullets": [
+          "mac 2026-10-22"
+        ],
+        "day": "2026-10-22",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-23": {
+        "bullets": [
+          "mac 2026-10-23"
+        ],
+        "day": "2026-10-23",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-24": {
+        "bullets": [
+          "mac 2026-10-24"
+        ],
+        "day": "2026-10-24",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-25": {
+        "bullets": [
+          "mac 2026-10-25"
+        ],
+        "day": "2026-10-25",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-26": {
+        "bullets": [
+          "mac 2026-10-26"
+        ],
+        "day": "2026-10-26",
+        "generatedAt": "2026-10-26T07:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      }
+    },
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {
+      "2026-10-10": {
+        "bullets": [
+          "stale 2026-10-10"
+        ],
+        "day": "2026-10-10",
+        "generatedAt": "2026-10-26T06:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-11": {
+        "bullets": [
+          "stale 2026-10-11"
+        ],
+        "day": "2026-10-11",
+        "generatedAt": "2026-10-26T06:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-12": {
+        "bullets": [
+          "stale 2026-10-12"
+        ],
+        "day": "2026-10-12",
+        "generatedAt": "2026-10-26T06:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-13": {
+        "bullets": [
+          "stale 2026-10-13"
+        ],
+        "day": "2026-10-13",
+        "generatedAt": "2026-10-26T06:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      },
+      "2026-10-14": {
+        "bullets": [
+          "stale 2026-10-14"
+        ],
+        "day": "2026-10-14",
+        "generatedAt": "2026-10-26T06:00:00.000Z",
+        "source": "claude",
+        "suggestedTasks": [
+          "Study"
+        ],
+        "warnings": []
+      }
+    },
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}

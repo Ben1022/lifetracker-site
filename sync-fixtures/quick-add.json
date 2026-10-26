@@ -1,0 +1,317 @@
+{
+  "description": "Quick-add examples. 'now' is a local time in 'timeZone'; due/repeatUntil are local times (null when absent).",
+  "timeZone": "America/Los_Angeles",
+  "now": "2026-10-23T10:00",
+  "cases": [
+    {
+      "input": "Read chapter 4",
+      "title": "Read chapter 4",
+      "due": null,
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Essay draft tomorrow 5pm p1 #School",
+      "title": "Essay draft",
+      "due": "2026-10-24T17:00",
+      "dueHasTime": true,
+      "priority": 1,
+      "listName": "School",
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Call mom today",
+      "title": "Call mom",
+      "due": "2026-10-23T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Pay rent tmr",
+      "title": "Pay rent",
+      "due": "2026-10-24T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Plan trip in 3 days",
+      "title": "Plan trip",
+      "due": "2026-10-26T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Visit in 2 weeks",
+      "title": "Visit",
+      "due": "2026-11-06T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Review next week",
+      "title": "Review",
+      "due": "2026-10-26T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Lab report monday",
+      "title": "Lab report",
+      "due": "2026-10-26T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Groceries on sat",
+      "title": "Groceries",
+      "due": "2026-10-24T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Sync next fri",
+      "title": "Sync",
+      "due": "2026-10-30T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Buy sun cream",
+      "title": "Buy sun cream",
+      "due": null,
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Apply by nov 3",
+      "title": "Apply by",
+      "due": "2026-11-03T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Taxes 4/15",
+      "title": "Taxes",
+      "due": "2027-04-15T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Standup at 9:30am",
+      "title": "Standup",
+      "due": "2026-10-24T09:30",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Gym 6pm",
+      "title": "Gym",
+      "due": "2026-10-23T18:00",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Lunch noon",
+      "title": "Lunch",
+      "due": "2026-10-23T12:00",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Meeting 14:15",
+      "title": "Meeting",
+      "due": "2026-10-23T14:15",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Laundry tonight",
+      "title": "Laundry",
+      "due": "2026-10-23T20:00",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Take vitamins every day",
+      "title": "Take vitamins",
+      "due": "2026-10-23T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": "daily",
+      "repeatUntil": null
+    },
+    {
+      "input": "Team sync every monday 10am",
+      "title": "Team sync",
+      "due": "2026-10-26T10:00",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": "weekly",
+      "repeatUntil": null
+    },
+    {
+      "input": "Rent monthly",
+      "title": "Rent",
+      "due": "2026-10-23T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": "monthly",
+      "repeatUntil": null
+    },
+    {
+      "input": "Standup weekdays",
+      "title": "Standup",
+      "due": "2026-10-23T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": "weekdays",
+      "repeatUntil": null
+    },
+    {
+      "input": "Quiz every monday until dec 5 #UGBA",
+      "title": "Quiz",
+      "due": "2026-10-26T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": "UGBA",
+      "repeatRule": "weekly",
+      "repeatUntil": "2026-12-05"
+    },
+    {
+      "input": "Reading until dec 5",
+      "title": "Reading until",
+      "due": "2026-12-05T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Read chapter 4 by 5pm",
+      "title": "Read chapter 4 by",
+      "due": "2026-10-23T17:00",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Problem set 3",
+      "title": "Problem set 3",
+      "due": null,
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Quiz on fri 5pm p1 #UGBA",
+      "title": "Quiz",
+      "due": "2026-10-23T17:00",
+      "dueHasTime": true,
+      "priority": 1,
+      "listName": "UGBA",
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "quiz fri 5pm p1 #UGBA 102A",
+      "title": "quiz fri 102A",
+      "due": "2026-10-23T17:00",
+      "dueHasTime": true,
+      "priority": 1,
+      "listName": "UGBA",
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Midnight snack 12am tomorrow",
+      "title": "Midnight snack",
+      "due": "2026-10-24T00:00",
+      "dueHasTime": true,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Essay p2 #School-Work",
+      "title": "Essay",
+      "due": null,
+      "dueHasTime": false,
+      "priority": 2,
+      "listName": "School-Work",
+      "repeatRule": null,
+      "repeatUntil": null
+    },
+    {
+      "input": "Birthday yearly oct 30",
+      "title": "Birthday",
+      "due": "2026-10-30T00:00",
+      "dueHasTime": false,
+      "priority": 4,
+      "listName": null,
+      "repeatRule": "yearly",
+      "repeatUntil": null
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "description": "Unchecking a logged day on the web deletes the copy (tombstone) and moves the series back.",
+  "expected": {
+    "briefings": {},
+    "deleted": {
+      "task:log1": "2026-10-26T11:00:00.000Z"
+    },
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "r1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "due": "2026-10-26T07:00:00.000Z",
+        "dueHasTime": false,
+        "id": "r1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "repeatRule": "weekly",
+        "sortIndex": 0,
+        "title": "Chapter quiz",
+        "updatedAt": "2026-10-26T11:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "log1": {
+        "completedAt": "2026-10-26T10:00:00.000Z",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "due": "2026-10-26T07:00:00.000Z",
+        "dueHasTime": false,
+        "id": "log1",
+        "isDone": true,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "seriesTaskID": "r1",
+        "sortIndex": 5,
+        "title": "Chapter quiz",
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      },
+      "r1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "due": "2026-11-02T08:00:00.000Z",
+        "dueHasTime": false,
+        "id": "r1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "repeatRule": "weekly",
+        "sortIndex": 0,
+        "title": "Chapter quiz",
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {
+      "task:log1": "2026-10-26T11:00:00.000Z"
+    },
+    "emailSorting": {},
+    "events": {},
+    "lists": {
+      "L1": {
+        "colorHex": "#2F6BFF",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "L1",
+        "name": "Other",
+        "sortIndex": 0,
+        "updatedAt": "2026-10-26T01:00:00.000Z"
+      }
+    },
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {
+      "r1": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "due": "2026-10-26T07:00:00.000Z",
+        "dueHasTime": false,
+        "id": "r1",
+        "isDone": false,
+        "listID": "L1",
+        "notes": "",
+        "priority": 4,
+        "repeatRule": "weekly",
+        "sortIndex": 0,
+        "title": "Chapter quiz",
+        "updatedAt": "2026-10-26T11:00:00.000Z"
+      }
+    },
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}

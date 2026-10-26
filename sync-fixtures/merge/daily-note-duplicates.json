@@ -1,0 +1,116 @@
+{
+  "description": "Two daily notes for the same day: the smaller ID stays the daily note; an empty duplicate is deleted, a non-empty one becomes an ordinary note.",
+  "expected": {
+    "briefings": {},
+    "deleted": {
+      "note:C-web": "2026-10-26T08:00:00.000Z",
+      "note:E-web": "2026-10-26T09:00:00.007Z"
+    },
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {
+      "A-mac": {
+        "body": "Mac thoughts",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-26",
+        "id": "A-mac",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      },
+      "B-web": {
+        "body": "Web thoughts",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "B-web",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      },
+      "D-mac": {
+        "body": "Yesterday",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-25",
+        "id": "D-mac",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      }
+    },
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {
+      "A-mac": {
+        "body": "Mac thoughts",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-26",
+        "id": "A-mac",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      },
+      "D-mac": {
+        "body": "Yesterday",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-25",
+        "id": "D-mac",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      }
+    },
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {
+      "B-web": {
+        "body": "Web thoughts",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-26",
+        "id": "B-web",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      },
+      "C-web": {
+        "body": " ",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-26",
+        "id": "C-web",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T08:00:00.000Z"
+      },
+      "E-web": {
+        "body": "",
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "day": "2026-10-25",
+        "id": "E-web",
+        "isPinned": false,
+        "updatedAt": "2026-10-26T09:00:00.007Z"
+      }
+    },
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}

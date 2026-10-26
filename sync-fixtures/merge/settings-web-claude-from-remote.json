@@ -1,0 +1,74 @@
+{
+  "description": "On the web, a newer local settings edit keeps the Mac's (remote) Use Claude value.",
+  "expected": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "settings": {
+      "accentColor": "#2F6BFF",
+      "claudeEnabled": true,
+      "defaultListID": "L1",
+      "hideMuted": true,
+      "sidebarStyle": "tinted",
+      "updatedAt": "2026-10-26T10:00:00.000Z",
+      "userName": "Benny"
+    },
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "web-B"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "settings": {
+      "accentColor": "#2F6BFF",
+      "claudeEnabled": false,
+      "defaultListID": "L1",
+      "hideMuted": true,
+      "sidebarStyle": "tinted",
+      "updatedAt": "2026-10-26T10:00:00.000Z",
+      "userName": "Benny"
+    },
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  },
+  "options": {
+    "localDevice": "web-B",
+    "localIsMac": false,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {},
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "settings": {
+      "accentColor": "#2F6BFF",
+      "claudeEnabled": true,
+      "defaultListID": "L1",
+      "hideMuted": true,
+      "sidebarStyle": "tinted",
+      "updatedAt": "2026-10-26T09:00:00.000Z",
+      "userName": "Ben"
+    },
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  }
+}

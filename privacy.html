@@ -9,9 +9,10 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="muted">LifeTracker · Last updated October 24, 2026</p>
+  <p class="muted">LifeTracker · Last updated October 26, 2026</p>
 
-  <p>LifeTracker is a personal macOS app used by its developer. This policy explains what data it accesses
+  <p>LifeTracker is a personal macOS app used by its developer, with an optional web version at
+  <a href="app/">ben1022.github.io/lifetracker-site/app/</a>. This policy explains what data they access
   and how that data is handled.</p>
 
   <h2>Data LifeTracker accesses</h2>
@@ -20,6 +21,8 @@
     <li><strong>Gmail</strong> (read-only): the sender, subject, short preview and date of unread messages.
       LifeTracker never sends, deletes or changes email.</li>
     <li><strong>Google account email address</strong>: to show which account is connected.</li>
+    <li><strong>Google Drive, LifeTracker's own app folder only</strong> (<code>drive.appdata</code>): a hidden
+      folder that only LifeTracker can see. LifeTracker cannot see or change any other file in your Drive.</li>
   </ul>
 
   <h2>How the data is used</h2>
@@ -29,6 +32,16 @@
   <h2>Where the data is stored</h2>
   <p>Calendar and email data is stored only on the user's Mac. Google sign-in tokens are kept in the macOS
   Keychain. LifeTracker has no servers and collects no analytics.</p>
+  <p><strong>Sync with Google Drive (optional, off by default).</strong> When it is turned on in the Mac app,
+  LifeTracker keeps one file in the hidden app folder of the user's own Google Drive so the web version shows
+  the same things. The file holds tasks and task lists, notes, events added by hand in LifeTracker, muted-event
+  rules, how unread emails were sorted (a category and a one-line summary, keyed by Gmail message ID, not the
+  emails themselves), the last two weeks of daily briefings, and display settings (name, accent color). Deleted
+  items are remembered for 30 days so the deletion reaches every device.</p>
+  <p><strong>The web version</strong> runs entirely in the browser. It signs in with Google, reads Google
+  Calendar, Gmail and the sync file directly from Google, and keeps everything in memory only: nothing is saved in
+  the browser, and closing the tab forgets it. The sign-in token is never stored and is revoked on sign-out.
+  The page loads no analytics or third-party scripts other than Google's sign-in.</p>
 
   <h2>Sharing</h2>
   <p>To write the briefing and answer questions, a summary of the day (event titles and times, task titles,
@@ -43,7 +56,8 @@
   <h2>Removing access and data</h2>
   <p>Access can be revoked at any time from LifeTracker's Settings → Accounts or at
   <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the app's
-  data folder (~/Library/Application Support/LifeTracker) removes all stored data.</p>
+  data folder (~/Library/Application Support/LifeTracker) removes all data stored on the Mac. The sync file can be
+  removed in Google Drive under Settings → Manage apps → LifeTracker → Delete hidden app data.</p>
 
   <h2>Contact</h2>
   <p>Questions about this policy: open an issue at

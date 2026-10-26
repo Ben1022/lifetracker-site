@@ -1,0 +1,109 @@
+{
+  "description": "Hand-added events and mute rules follow the same newer-wins and tombstone rules.",
+  "expected": {
+    "briefings": {},
+    "deleted": {
+      "event:manual:2": "2026-10-26T10:00:00.000Z"
+    },
+    "emailSorting": {},
+    "events": {
+      "manual:1": {
+        "end": "2026-10-26T16:00:00.000Z",
+        "id": "manual:1",
+        "isAllDay": false,
+        "notes": "",
+        "start": "2026-10-26T15:00:00.000Z",
+        "title": "Dentist 4pm",
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      }
+    },
+    "lists": {},
+    "muteRules": {
+      "keyword:lecture": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "keyword:lecture",
+        "kind": "keyword",
+        "label": "Lecture",
+        "updatedAt": "2026-10-26T08:00:00.000Z",
+        "value": "Lecture"
+      }
+    },
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T12:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "local": {
+    "briefings": {},
+    "deleted": {},
+    "emailSorting": {},
+    "events": {
+      "manual:1": {
+        "end": "2026-10-26T16:00:00.000Z",
+        "id": "manual:1",
+        "isAllDay": false,
+        "notes": "",
+        "start": "2026-10-26T15:00:00.000Z",
+        "title": "Dentist",
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      },
+      "manual:2": {
+        "end": "2026-10-26T16:00:00.000Z",
+        "id": "manual:2",
+        "isAllDay": false,
+        "notes": "",
+        "start": "2026-10-26T15:00:00.000Z",
+        "title": "Gym",
+        "updatedAt": "2026-10-26T09:00:00.000Z"
+      }
+    },
+    "lists": {},
+    "muteRules": {
+      "keyword:lecture": {
+        "createdAt": "2026-10-26T01:00:00.000Z",
+        "id": "keyword:lecture",
+        "kind": "keyword",
+        "label": "Lecture",
+        "updatedAt": "2026-10-26T08:00:00.000Z",
+        "value": "Lecture"
+      }
+    },
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "mac-A"
+  },
+  "options": {
+    "localDevice": "mac-A",
+    "localIsMac": true,
+    "now": "2026-10-26T12:00:00.000Z"
+  },
+  "remote": {
+    "briefings": {},
+    "deleted": {
+      "event:manual:2": "2026-10-26T10:00:00.000Z",
+      "muteRule:keyword:lecture": "2026-10-26T07:00:00.000Z"
+    },
+    "emailSorting": {},
+    "events": {
+      "manual:1": {
+        "end": "2026-10-26T16:00:00.000Z",
+        "id": "manual:1",
+        "isAllDay": false,
+        "notes": "",
+        "start": "2026-10-26T15:00:00.000Z",
+        "title": "Dentist 4pm",
+        "updatedAt": "2026-10-26T10:00:00.000Z"
+      }
+    },
+    "lists": {},
+    "muteRules": {},
+    "notes": {},
+    "schemaVersion": 1,
+    "tasks": {},
+    "writtenAt": "2026-10-26T11:00:00.000Z",
+    "writtenBy": "web-B"
+  }
+}
